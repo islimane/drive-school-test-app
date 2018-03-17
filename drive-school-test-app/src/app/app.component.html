@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+	<h1>
+		Welcome to {{title}}!
+	</h1>
+</div>
+<h2>Here are some questions: </h2>
+<div class="question-container" *ngFor="let question of testQuestions">
+	<div class="question-img">
+		<img src="{{'../assets/img/question_img_' + question.id + '.png'}}" />
+	</div>
+	<div class="question">
+		<ul class="question-ul">
+			<li>
+				<h3>{{question.title}}</h3>
+				<ol type="A">
+					<li
+						class="answer {{(answer.selected && answer.value) ? 'correct' : ''}} {{(answer.selected && !answer.value) ? 'wrong' : ''}}"
+						*ngFor="let answer of question.answers"
+						(click)="selectAnswer(answer)">
+						{{answer.title}}
+					</li>
+				</ol>
+			</li>
+		</ul>
+	</div>
+</div>
+

@@ -1,0 +1,41 @@
+div.question-container {
+	display: flex;
+}
+
+div.question {
+	flex: 4;
+	display: flex;
+	align-items: center;
+}
+
+ul.question-ul {
+	width: 100%;
+	padding: 0 3rem;
+}
+
+div.question-img {
+	flex: 1;
+}
+
+div.question-img img {
+	width: 100%;
+}
+
+li.answer {
+	padding: 0.25rem 0.5rem;
+	cursor: pointer;
+}
+
+li.answer.wrong,
+li.answer.wrong:hover {
+	background-color: #ff9a9a;
+}
+
+li.answer.correct,
+li.answer.correct:hover {
+	background-color: #caffc4;
+}
+
+li.answer:hover {
+	background-color: #e0e0e0;
+}
