@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AppService {
 
-	getTests(): any {
+	getQuestions(): any {
 		const tests = [
 			{
 				id: '000001',
