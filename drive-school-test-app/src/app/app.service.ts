@@ -7,7 +7,7 @@ export class AppService {
 		const tests = [
 			{
 				id: '000001',
-				title: 'En los accidentes de motocicleta, ¿cuáles son las infracciones más frecuentes cometidas por sus conductiores?',
+				title: 'En los accidentes de motocicleta, ¿cuáles son las infracciones más frecuentes cometidas por sus conductores?',
 				answers: [
 					{
 						title: 'No respetar la prioridad de paso',
@@ -76,7 +76,7 @@ export class AppService {
 				title: 'Si el camión está parado, ¿puede rebasarle?',
 				answers: [
 					{
-						title: 'Sí, cuando sele pueda rebasar sin peligro.',
+						title: 'Sí, cuando se le pueda rebasar sin peligro.',
 						value: true,
 						selected: false
 					},
