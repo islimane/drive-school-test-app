@@ -377,6 +377,227 @@ export class AppService {
 						selected: false
 					}
 				]
+			},
+
+			{
+				id: '000018',
+				title: 'Un turismo con remolque, ¿es obligatorio que lleve una rueda de repuesto del remolque?',
+				answers: [
+					{
+						title: 'Sí.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Si, cuando el remolque no es ligero.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000019',
+				title: '¿Qué infracción de los conductores está relacionada con los atropellos a los peatones?',
+				answers: [
+					{
+						title: 'Estacionar en los pasos para peatones.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Parar en doble fila.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Deslumbrar.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000020',
+				title: 'Para girar a la izquierda, es obligatorio aproximarse al borde izquierdo de la calzada en las vías...',
+				answers: [
+					{
+						title: 'con más de un carril para uno de los sentidos de la circulación.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'de doble sentido de la circulación.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'de un sólo sentido de la cierculación.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000021',
+				title: '¿Cuáles son los principales grupos vulnerables en el tráfico?',
+				answers: [
+					{
+						title: 'Los niños, los jóvenes y las personas mayores.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Sólo los niños y las personas mayores.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Los ciclistas.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000022',
+				title: '¿Qué está indicando este conductor?',
+				answers: [
+					{
+						title: 'Que va a seguir de frente.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Que va a girar a la izquierda.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Que va a girar a la derecha.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000023',
+				title: 'Un conjunto de vehículos no agrícolas en circulación debe llevar, entre sus accesorios...',
+				answers: [
+					{
+						title: 'un equipo homologado de extinción de incendios, adecuado y en condiciones de uso.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'una rueda de repuesto del remolque o semirremolque.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'dos chalecos reflectantes de alta visibilidad.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000024',
+				title: 'En un cruce se enciende la luz roja y el vehículo azul bloquea el paso. ¿Qué debe hacer?',
+				answers: [
+					{
+						title: 'Salir del cruce, pero sin molestar a otros usuarios.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Esperar a que se encienda la luz intermitente amarilla.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Esperar a que se encienda la luz verde.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000025',
+				title: 'Circulando con la calzada nevada las pendientes se deben subir...',
+				answers: [
+					{
+						title: 'rápidamente, porque si el vehículo se detiene será difícil reanudar la marcha.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'lentamente ya velocidad sostenida.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'con la relación de marchas más corta posible.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000026',
+				title: 'En los vehículos de anchura inferior a un metro la carga no debe sobresalir lateralmente más de...',
+				answers: [
+					{
+						title: '0.40 metros a cada lado del vehículo.',
+						value: false,
+						selected: false
+					},
+					{
+						title: '0.50 metros a cada lado del vehículo.',
+						value: false,
+						selected: false
+					},
+					{
+						title: '0.50 metros a cada lado del eje longitudinal.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000027',
+				title: 'El carril que se observa a la izquierda está abierto para circular en sentido contrario.' +
+					'¿Cuál es la velocidad máxima permitida en ese carril?',
+				answers: [
+					{
+						title: '90 kilómetros por hora.',
+						value: false,
+						selected: false
+					},
+					{
+						title: '80 kilómetros por hora.',
+						value: true,
+						selected: false
+					},
+					{
+						title: '100 kilómetros por hora.',
+						value: false,
+						selected: false
+					}
+				]
 			}
 		];
 		return tests;
