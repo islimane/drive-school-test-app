@@ -598,6 +598,536 @@ export class AppService {
 						selected: false
 					}
 				]
+			},
+
+			{
+				id: '000028',
+				title: '¿Qué le indica este panel?',
+				answers: [
+					{
+						title: 'Carretera intransitable para todo tipo de vehículos.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Circulación cerrada permanentemente a toda clase de vehículos.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Que continuemos la marcha como si nada.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000029',
+				title: '¿Cómo debe señalizar la carga que sobresale de una motocicleta?',
+				answers: [
+					{
+						title: 'En las motocicletas la carga no es necesario señalizarla.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Con un panel reglamentario en el extremo de la carga.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'De noche con una luz roja por la parte trasera.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000030',
+				title: 'Durante el día, con niebla o lluvia intensa, ¿se puede circular con la luz de largo alcance?',
+				answers: [
+					{
+						title: 'No, sólo puede encenderse la luz de corto alcance.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No, la luz de largo alcance sólo puede encenderse de noche.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Sí, pero es aconsejable encender la luz de cruce.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000031',
+				title: '¿Está oblida una motocicleta de menos de 125cc a llevar luz de largo alcance?',
+				answers: [
+					{
+						title: 'No.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Sí.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Únicamente las que lleven sidecar.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000032',
+				title: 'El viento sopla desde el lado derecho a ráfagas. ¿Cuándo es más peligroso?',
+				answers: [
+					{
+						title: 'Cuando circulo detrás de un vehículo grande.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Cuando un vehículo grande me adelanta.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Cuando adelanto a un vehículo grande.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000033',
+				title: 'Un semáforo de carril con una luz roja en forma de aspa, ¿qué indica?',
+				answers: [
+					{
+						title: 'Que está prohibido ocupar el carril sobre el que se encuentra situado.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Que la calzada está cerrada al tráfico.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Que, temporalmente, no se puede circular por la vía así señalizada.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000034',
+				title: 'Para girar a la izquierda, en una vía en la que no hay marca que separe los dos sentidos de circulación, ¿dónde debe situarse?',
+				answers: [
+					{
+						title: 'Obligatoriamente en el arcén, para realizar la maniobra desde allí.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Junto al eje de la calzada, sin invadir el sentido contrario.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'En el centro de la calzada, invadiendo parte del sentido contrario si es preciso.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000036',
+				title: 'El adelantamiento que efectía el turismo a la motocicleta, ¿es correcto?',
+				answers: [
+					{
+						title: 'No, porque invade el sentido contrario.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Sí, porque deja la separación adecuada y ocupa el carril contiguo.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No, porque deja más de 1,50 metros de separación y tiene que ocupar el carril de sentido contrario.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000037',
+				title: 'En una vía urbana de sentido único está permitido estacionar en el lado...',
+				answers: [
+					{
+						title: 'derecho.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'derecho o izquierdo, fuera de la calzada o el arcén.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'derecho o izquierdo.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000038',
+				title: '¿Tiene alguna obligación cuando observe que otro vehículo tiene el propósito de adelantarle?',
+				answers: [
+					{
+						title: 'Indicarle con el intermitente derecho que puede adelantar con seguridad.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Ceñirme al borde derecho de la calzada.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Disminuir la velocidad.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000039',
+				title: '¿Está permitida la circulación de animales por una carretera convencional?',
+				answers: [
+					{
+						title: 'Sí, excepto cuando circulen enrebaño.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Sí, únicamente cuando no exista vía pecuaria.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000040',
+				title: 'Los accidentes de tráfico...',
+				answers: [
+					{
+						title: 'son la causa principal de muerte a nivel mundial.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No tienen una gran importancia.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Son una de las principales causas de mortalidad en nuestro país.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000041',
+				title: 'El conductor de un vehículo extiende el brazo horizontalmente con la palma de la mano hacia atrás, ¿qué indica?',
+				answers: [
+					{
+						title: 'Que va a girar a la izquierda.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Que tiene intención de inmovilizar el vehículo o de frenar su marcha de modo considerable.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Que va a circular marcha atrás.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000042',
+				title: '¿Qué indica un semáforo con una franja blanca vertical intermintente?',
+				answers: [
+					{
+						title: 'Detención.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Pasar.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Pasar con precaución.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000043',
+				title: '¿Cuál es la distancia ideal a la que debe colocarse con respexto al airbag?',
+				answers: [
+					{
+						title: '25 cm.',
+						value: true,
+						selected: false
+					},
+					{
+						title: '10 cm.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'La distancia que le permita conducir en una postura cómoda.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000044',
+				title: 'Una motocicleta que arrastra un remolque, ¿puede transportar una persona en él?',
+				answers: [
+					{
+						title: 'Sí, si se trata de un niño mayor de 7 años.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No, en ningún caso.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Sí, igual que si se tratara de un sidecar.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000045',
+				title: 'Un niño de ocho años de edad con una estatura de 120 cm viaja en un turismo que no dispone de ' +
+					'dispositivos de seguridad, ¿puede hacerlo?',
+				answers: [
+					{
+						title: 'No.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'Sí, en los asientos traseros.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No, porque no alcanza los 135 cm de estatura.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000046',
+				title: 'El conductor de un conjunto de vehículos de más de 3.500 kg de MMA que circula por un túnel y no pretende ' +
+					'adelantar debe dejar con el vehículo que le precede una separación de la menos...',
+				answers: [
+					{
+						title: '50 metros.',
+						value: false,
+						selected: false
+					},
+					{
+						title: '100 metros.',
+						value: false,
+						selected: false
+					},
+					{
+						title: '150 metros.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000047',
+				title: 'La tasa máxima de alcoholemia permitida en sangre para conductores profesionales es...',
+				answers: [
+					{
+						title: '0,30 gramos por litro.',
+						value: true,
+						selected: false
+					},
+					{
+						title: '0,30 miligramos por litro.',
+						value: false,
+						selected: false
+					},
+					{
+						title: '0,50 gramos por litro.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000048',
+				title: 'Antes de iniciar un adelantamiento, el conductor está obligado a comprobar que...',
+				answers: [
+					{
+						title: 'no hay nada de circulación en sentido contrario.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'dispone de velocidad suficiente.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'el vehículo que circule delante nos avise con señales acústicas de la posibilidad de hacerlo.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000049',
+				title: 'Mediante el empleo de la correspondiente señalización, las velocidades máximas en autovías dentro de poblado podrán ser...',
+				answers: [
+					{
+						title: 'ampliadas sin rebasar, en ningún caso, los límites genéricos establecidos para dichas vías fuera de poblado.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'únicamente rebajadas en autovías especialmente peligrosas.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'rebajadas o ampliadas rebasando incluso los límites genéricos establecidos para dichas vías fuera de poblado.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000050',
+				title: 'Los accidentes de ciclistas ¿dónde se producen con mayor frecuencia?',
+				answers: [
+					{
+						title: 'En las vías urbanas.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'En las carreteras convencionales.',
+						value: true,
+						selected: false
+					},
+					{
+						title: 'En las autopistas.',
+						value: false,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000051',
+				title: 'La señal significa...',
+				answers: [
+					{
+						title: 'vía obligatoria para los autobuses.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'parada de autobuses.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'carril reservado para autobuses.',
+						value: true,
+						selected: false
+					}
+				]
+			},
+
+			{
+				id: '000052',
+				title: '¿Está permitido realizar competiciones de velocidad en las vías públicas?',
+				answers: [
+					{
+						title: 'Sí, siempre.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'Sí, pero todas las pruebas autorizadas irán precedidas por un agente de la autoridad con una bandera de color verde.',
+						value: false,
+						selected: false
+					},
+					{
+						title: 'No, como norma general.',
+						value: true,
+						selected: false
+					}
+				]
 			}
 		];
 		return tests;
